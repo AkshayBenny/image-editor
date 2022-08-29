@@ -37,10 +37,14 @@ export default function Home() {
   useEffect(() => {
     setDomLoaded(true)
   }, [])
-
   return (
     <>
       <Head>
+        <script
+          async
+          src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1133210925380387'
+          crossOrigin='anonymous'
+        ></script>
         <title>LINK2QR</title>
         <meta
           name='description'
